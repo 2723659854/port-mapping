@@ -11,7 +11,7 @@ try {
     exit;
 }
 /** 首先清理上一次的文件 */
-
+clean_temp_server();
 
 $file = [];
 /** 创建多个代理服务 */
@@ -40,18 +40,22 @@ function make_server_file($config){
     $content  = file_get_contents(__DIR__.'/server_for_win.php');
     $content = str_replace('#config#',json_encode($config),$content);
     $file = __DIR__.'/windows_server/'.rand(1,10000).'_server.php';
-    touch($file);
+    @touch($file);
     file_put_contents($file,$content);
     return $file;
 }
 
+/**
+ * 删除上一次的缓存文件
+ * @return void
+ */
 function clean_temp_server()
 {
     $temp_dir_list = scandir(__DIR__."/windows_server/");
 
     foreach ($temp_dir_list as $t_key => $t_value) {
         if($t_value != '.' && $t_value != '..' ){
-            unlink(__DIR__."/windows_server/".$t_value);
+            @unlink(__DIR__."/windows_server/".$t_value);
         }
     }
 

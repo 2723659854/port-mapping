@@ -1,0 +1,1531 @@
+2018-09-30 01:41:41 pid:1 Error: Class 'AsyncTcpConnection' not found in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:14
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(61): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 01:41:41 pid:1 Worker process terminated
+2018-09-30 01:47:00 pid:1 Error: Class 'AsyncTcpConnection' not found in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:14
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(61): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 01:47:00 pid:1 Worker process terminated
+2018-09-30 01:47:37 pid:1 Error: Class 'AsyncTcpConnection' not found in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:14
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(61): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 01:47:37 pid:1 Worker process terminated
+2018-09-30 02:16:44 pid:1 Error: Call to undefined function dump() in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:60
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(69): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 02:16:44 pid:1 Worker process terminated
+2018-09-30 03:08:46 pid:1 Error: Call to a member function send() on null in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:61
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:08:46 pid:1 Worker process terminated
+2018-09-30 03:09:23 pid:1 Error: Call to a member function close() on null in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:67
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(74): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:09:23 pid:1 Worker process terminated
+2018-09-30 03:10:31 pid:1 Error: Call to a member function close() on null in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:65
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(72): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:10:31 pid:1 Worker process terminated
+2018-09-30 03:11:47 pid:1 Error: Call to a member function close() on null in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:64
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(71): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:11:47 pid:1 Worker process terminated
+2018-09-30 03:12:00 pid:1 Error: Call to a member function send() on null in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:60
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(71): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:12:00 pid:1 Worker process terminated
+2018-09-30 03:12:39 pid:1 Error: Call to undefined function dump() in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:39
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), 'HTTP/1.1 200 OK...')
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(668): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), 'HTTP/1.1 200 OK...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #23)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(71): Workerman\Worker::runAll()
+#9 {main}
+2018-09-30 03:12:40 pid:1 Worker process terminated
+2018-09-30 03:15:30 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:65
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(72): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:15:30 pid:1 Worker process terminated
+2018-09-30 03:15:35 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:56
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(72): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:15:35 pid:1 Worker process terminated
+2018-09-30 03:25:03 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:56
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:25:03 pid:1 Worker process terminated
+2018-09-30 03:26:14 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:56
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(72): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:26:14 pid:1 Worker process terminated
+2018-09-30 03:27:14 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:57
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:27:14 pid:1 Worker process terminated
+2018-09-30 03:27:41 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:66
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:27:41 pid:1 Worker process terminated
+2018-09-30 03:27:47 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:57
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:27:47 pid:1 Worker process terminated
+2018-09-30 03:27:57 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:66
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:27:57 pid:1 Worker process terminated
+2018-09-30 03:28:37 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:57
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:28:37 pid:1 Worker process terminated
+2018-09-30 03:29:06 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:57
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:29:06 pid:1 Worker process terminated
+2018-09-30 03:29:28 pid:1 Error: Cannot use object of type Workerman\Worker as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:57
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:29:28 pid:1 Worker process terminated
+2018-09-30 03:30:35 pid:1 Error: Call to a member function close() on null in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:66
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:30:35 pid:1 Worker process terminated
+2018-09-30 03:31:05 pid:1 Error: Call to undefined function dump() in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:38
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\AsyncTcpConnection), 'HTTP/1.1 200 OK...')
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(668): call_user_func(Object(Closure), Object(Workerman\Connection\AsyncTcpConnection), 'HTTP/1.1 200 OK...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #23)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#9 {main}
+2018-09-30 03:31:05 pid:1 Worker process terminated
+2018-09-30 03:31:21 pid:1 Error: Call to a member function close() on null in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:66
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #22)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(73): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 03:31:21 pid:1 Worker process terminated
+2018-09-30 06:41:42 pid:1 Error: Call to a member function close() on null in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php:85
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\channel\src\Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Connection\TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2231): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\client.php(24): Workerman\Worker::runAll()
+#11 {main}
+2018-09-30 06:41:42 pid:1 Worker process terminated
+2018-10-01 10:18:09 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:18:09 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:18:10 pid:1 Worker process terminated
+2018-10-01 10:18:10 pid:1 Worker process terminated
+2018-10-01 10:18:11 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:18:11 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:18:12 pid:1 Worker process terminated
+2018-10-01 10:18:12 pid:1 Worker process terminated
+2018-10-01 10:18:13 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:18:13 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:18:14 pid:1 Worker process terminated
+2018-10-01 10:18:14 pid:1 Worker process terminated
+2018-10-01 10:18:15 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:18:15 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:18:16 pid:1 Worker process terminated
+2018-10-01 10:18:16 pid:1 Worker process terminated
+2018-10-01 10:18:17 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:18:17 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:18:18 pid:1 Worker process terminated
+2018-10-01 10:18:18 pid:1 Worker process terminated
+2018-10-01 10:18:32 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:18:32 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:18:33 pid:1 Worker process terminated
+2018-10-01 10:18:33 pid:1 Worker process terminated
+2018-10-01 10:18:35 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:18:35 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:18:36 pid:1 Worker process terminated
+2018-10-01 10:18:36 pid:1 Worker process terminated
+2018-10-01 10:18:36 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:18:37 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:19:25 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_0.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:19:26 pid:1 Error: Cannot use object of type stdClass as array in D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php:16
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(2216): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1221): Workerman\Worker->run()
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(1164): Workerman\Worker::forkWorkersForWindows()
+#4 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-port-mapping\temp_client_for_win\temp_client_1.php(72): Workerman\Worker::runAll()
+#6 {main}
+2018-10-01 10:19:26 pid:1 Worker process terminated
+2018-10-01 10:19:27 pid:1 Worker process terminated
+2023-12-12 11:02:43 pid:69 Workerman[client.php] start in DEBUG mode
+2023-12-12 11:02:52 pid:69 Workerman[client.php] stopping ...
+2023-12-12 11:02:53 pid:69 Workerman[client.php] has been stopped
+2023-12-12 11:14:56 pid:19 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:16:06 pid:20 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:16:49 pid:30 Workerman[client.php] start in DEBUG mode
+2023-12-12 11:17:52 pid:20 Workerman[server.php] stopping ...
+2023-12-12 11:17:52 pid:20 worker[none:22] exit with status 2
+2023-12-12 11:17:52 pid:20 worker[ChannelServer:21] exit with status 2
+2023-12-12 11:17:52 pid:20 worker[none:23] exit with status 2
+2023-12-12 11:17:52 pid:20 Workerman[server.php] has been stopped
+2023-12-12 11:18:20 pid:39 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:20:37 pid:39 Workerman[server.php] stopping ...
+2023-12-12 11:20:37 pid:39 Workerman[server.php] has been stopped
+2023-12-12 11:20:38 pid:52 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:24:08 pid:30 Workerman[client.php] stopping ...
+2023-12-12 11:24:10 pid:30 worker[none:31] exit with status 9
+2023-12-12 11:24:10 pid:30 Workerman[client.php] has been stopped
+2023-12-12 11:24:12 pid:60 Workerman[client.php] start in DEBUG mode
+2023-12-12 11:26:44 pid:52 Workerman[server.php] stopping ...
+2023-12-12 11:26:44 pid:52 Workerman[server.php] has been stopped
+2023-12-12 11:26:45 pid:67 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:26:59 pid:60 Workerman[client.php] stopping ...
+2023-12-12 11:27:01 pid:60 worker[none:61] exit with status 9
+2023-12-12 11:27:01 pid:60 Workerman[client.php] has been stopped
+2023-12-12 11:27:02 pid:71 Workerman[client.php] start in DEBUG mode
+2023-12-12 11:34:33 pid:71 Workerman[client.php] stopping ...
+2023-12-12 11:34:34 pid:71 Workerman[client.php] stopping ...
+2023-12-12 11:34:35 pid:71 worker[none:72] exit with status 9
+2023-12-12 11:34:35 pid:71 Workerman[client.php] has been stopped
+2023-12-12 11:34:36 pid:86 Workerman[client.php] start in DEBUG mode
+2023-12-12 11:34:45 pid:67 Workerman[server.php] stopping ...
+2023-12-12 11:34:45 pid:67 Workerman[server.php] has been stopped
+2023-12-12 11:34:47 pid:88 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:36:52 pid:88 Workerman[server.php] stopping ...
+2023-12-12 11:36:52 pid:88 Workerman[server.php] has been stopped
+2023-12-12 11:36:53 pid:92 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:37:38 pid:92 Workerman[server.php] stopping ...
+2023-12-12 11:37:38 pid:92 Workerman[server.php] has been stopped
+2023-12-12 11:37:39 pid:94 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:37:46 pid:86 Workerman[client.php] stopping ...
+2023-12-12 11:37:48 pid:86 worker[none:87] exit with status 9
+2023-12-12 11:37:48 pid:86 Workerman[client.php] has been stopped
+2023-12-12 11:37:49 pid:96 Workerman[client.php] start in DEBUG mode
+2023-12-12 11:38:03 pid:96 Workerman[client.php] stopping ...
+2023-12-12 11:38:04 pid:96 Workerman[client.php] has been stopped
+2023-12-12 11:38:28 pid:94 Workerman[server.php] stopping ...
+2023-12-12 11:38:28 pid:94 worker[ChannelServer:95] exit with status 2
+2023-12-12 11:38:28 pid:94 Workerman[server.php] has been stopped
+2023-12-12 11:38:29 pid:98 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:38:34 pid:100 Workerman[client.php] start in DEBUG mode
+2023-12-12 11:39:42 pid:98 Workerman[server.php] stopping ...
+2023-12-12 11:39:42 pid:98 worker[ChannelServer:99] exit with status 2
+2023-12-12 11:39:42 pid:98 Workerman[server.php] has been stopped
+2023-12-12 11:39:43 pid:102 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:39:48 pid:100 Workerman[client.php] stopping ...
+2023-12-12 11:39:49 pid:100 Workerman[client.php] stopping ...
+2023-12-12 11:39:49 pid:100 Workerman[client.php] has been stopped
+2023-12-12 11:39:50 pid:104 Workerman[client.php] start in DEBUG mode
+2023-12-12 11:40:08 pid:104 Workerman[client.php] stopping ...
+2023-12-12 11:40:10 pid:102 Workerman[server.php] stopping ...
+2023-12-12 11:40:10 pid:104 Workerman[client.php] has been stopped
+2023-12-12 11:40:10 pid:102 Workerman[server.php] has been stopped
+2023-12-12 11:41:10 pid:106 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:41:15 pid:108 Workerman[client.php] start in DEBUG mode
+2023-12-12 11:44:27 pid:106 Workerman[server.php] stopping ...
+2023-12-12 11:44:27 pid:106 Workerman[server.php] has been stopped
+2023-12-12 11:44:28 pid:113 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:44:34 pid:108 Workerman[client.php] stopping ...
+2023-12-12 11:44:34 pid:108 Workerman[client.php] stopping ...
+2023-12-12 11:44:35 pid:108 Workerman[client.php] has been stopped
+2023-12-12 11:44:36 pid:115 Workerman[client.php] start in DEBUG mode
+2023-12-12 11:45:52 pid:113 Workerman[server.php] stopping ...
+2023-12-12 11:45:52 pid:113 worker[ChannelServer:114] exit with status 2
+2023-12-12 11:45:52 pid:113 Workerman[server.php] has been stopped
+2023-12-12 11:45:53 pid:121 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:45:57 pid:115 Workerman[client.php] stopping ...
+2023-12-12 11:45:57 pid:115 Workerman[client.php] stopping ...
+2023-12-12 11:45:58 pid:115 Workerman[client.php] stopping ...
+2023-12-12 11:45:59 pid:115 worker[none:116] exit with status 9
+2023-12-12 11:45:59 pid:115 Workerman[client.php] has been stopped
+2023-12-12 11:46:00 pid:123 Workerman[client.php] start in DEBUG mode
+2023-12-12 11:50:00 pid:121 Workerman[server.php] stopping ...
+2023-12-12 11:50:00 pid:121 Workerman[server.php] has been stopped
+2023-12-12 11:50:03 pid:123 Workerman[client.php] stopping ...
+2023-12-12 11:50:03 pid:123 Workerman[client.php] stopping ...
+2023-12-12 11:50:04 pid:123 Workerman[client.php] has been stopped
+2023-12-12 11:50:07 pid:128 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:50:10 pid:130 Workerman[client.php] start in DEBUG mode
+2023-12-12 11:51:51 pid:128 Workerman[server.php] stopping ...
+2023-12-12 11:51:51 pid:128 worker[ChannelServer:129] exit with status 2
+2023-12-12 11:51:51 pid:128 Workerman[server.php] has been stopped
+2023-12-12 11:51:53 pid:132 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:52:19 pid:133 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:52:25 pid:130 Workerman[client.php] stopping ...
+2023-12-12 11:52:27 pid:130 Workerman[client.php] stopping ...
+2023-12-12 11:52:27 pid:130 Workerman[client.php] stopping ...
+2023-12-12 11:52:27 pid:130 Workerman[client.php] stopping ...
+2023-12-12 11:52:27 pid:130 worker[none:131] exit with status 9
+2023-12-12 11:52:27 pid:130 Workerman[client.php] has been stopped
+2023-12-12 11:52:28 pid:136 Workerman[client.php] start in DEBUG mode
+2023-12-12 11:53:19 pid:133 Workerman[server.php] stopping ...
+2023-12-12 11:53:19 pid:133 Workerman[server.php] has been stopped
+2023-12-12 11:53:20 pid:139 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:53:25 pid:136 Workerman[client.php] stopping ...
+2023-12-12 11:53:25 pid:136 Workerman[client.php] stopping ...
+2023-12-12 11:53:26 pid:136 Workerman[client.php] stopping ...
+2023-12-12 11:53:27 pid:136 worker[none:137] exit with status 9
+2023-12-12 11:53:27 pid:136 Workerman[client.php] has been stopped
+2023-12-12 11:53:28 pid:142 Workerman[client.php] start in DEBUG mode
+2023-12-12 11:54:29 pid:142 Workerman[client.php] stopping ...
+2023-12-12 11:54:30 pid:142 Workerman[client.php] stopping ...
+2023-12-12 11:54:31 pid:142 worker[none:143] exit with status 9
+2023-12-12 11:54:31 pid:142 Workerman[client.php] has been stopped
+2023-12-12 11:54:32 pid:153 Workerman[client.php] start in DEBUG mode
+2023-12-12 11:54:38 pid:139 Workerman[server.php] stopping ...
+2023-12-12 11:54:38 pid:139 worker[ChannelServer:140] exit with status 2
+2023-12-12 11:54:38 pid:139 Workerman[server.php] has been stopped
+2023-12-12 11:54:39 pid:155 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:56:14 pid:155 Workerman[server.php] stopping ...
+2023-12-12 11:56:14 pid:155 Workerman[server.php] has been stopped
+2023-12-12 11:56:16 pid:159 Workerman[server.php] start in DEBUG mode
+2023-12-12 11:56:20 pid:153 Workerman[client.php] stopping ...
+2023-12-12 11:56:20 pid:153 Workerman[client.php] stopping ...
+2023-12-12 11:56:20 pid:153 Workerman[client.php] stopping ...
+2023-12-12 11:56:21 pid:153 Workerman[client.php] stopping ...
+2023-12-12 11:56:21 pid:153 Workerman[client.php] stopping ...
+2023-12-12 11:56:22 pid:153 worker[none:154] exit with status 9
+2023-12-12 11:56:22 pid:153 Workerman[client.php] has been stopped
+2023-12-12 11:56:23 pid:162 Workerman[client.php] start in DEBUG mode
+2023-12-12 11:59:31 pid:162 Workerman[client.php] stopping ...
+2023-12-12 11:59:33 pid:162 worker[none:163] exit with status 9
+2023-12-12 11:59:33 pid:162 Workerman[client.php] has been stopped
+2023-12-12 11:59:48 pid:166 Workerman[client.php] start in DEBUG mode
+2023-12-12 11:59:51 pid:167 Error: Call to a member function close() on null in /usr/src/myapp/workerman-port-mapping/client.php:90
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /usr/src/myapp/workerman-port-mapping/vendor/workerman/channel/src/Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24, 2, Resource id #24)
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#8 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#10 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#11 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#12 {main}
+2023-12-12 11:59:56 pid:167 Worker[167] process terminated
+2023-12-12 11:59:56 pid:166 Workerman[client.php] stopping ...
+2023-12-12 11:59:56 pid:166 worker[none:167] exit with status 2
+2023-12-12 11:59:56 pid:166 Workerman[client.php] has been stopped
+2023-12-12 11:59:57 pid:168 Workerman[client.php] start in DEBUG mode
+2023-12-12 12:00:03 pid:169 Worker[169] process terminated with ERROR: E_ERROR "Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php:347
+Stack trace:
+#0 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php(347): method_exists(NULL, 'onConnect')
+#1 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #25, 4, Resource id #25)
+#2 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#3 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#4 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#8 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#9 {main}
+  thrown in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php on line 347"
+2023-12-12 12:00:03 pid:168 worker[none:169] exit with status 65280
+2023-12-12 12:00:50 pid:168 Workerman[client.php] stopping ...
+2023-12-12 12:00:52 pid:168 worker[none:171] exit with status 9
+2023-12-12 12:00:52 pid:168 Workerman[client.php] has been stopped
+2023-12-12 12:01:04 pid:172 Workerman[client.php] start in DEBUG mode
+2023-12-12 12:01:30 pid:159 Workerman[server.php] stopping ...
+2023-12-12 12:01:31 pid:159 Workerman[server.php] has been stopped
+2023-12-12 12:01:32 pid:175 Workerman[server.php] start in DEBUG mode
+2023-12-12 12:01:37 pid:172 Workerman[client.php] stopping ...
+2023-12-12 12:01:39 pid:172 worker[none:173] exit with status 9
+2023-12-12 12:01:39 pid:172 Workerman[client.php] has been stopped
+2023-12-12 12:01:40 pid:178 Workerman[client.php] start in DEBUG mode
+2023-12-12 12:02:02 pid:175 Workerman[server.php] stopping ...
+2023-12-12 12:02:02 pid:175 worker[ChannelServer:176] exit with status 2
+2023-12-12 12:02:02 pid:175 worker[none:177] exit with status 2
+2023-12-12 12:02:02 pid:175 Workerman[server.php] has been stopped
+2023-12-12 12:02:03 pid:181 Workerman[server.php] start in DEBUG mode
+2023-12-12 12:02:08 pid:178 Workerman[client.php] stopping ...
+2023-12-12 12:02:08 pid:178 Workerman[client.php] stopping ...
+2023-12-12 12:02:09 pid:178 Workerman[client.php] stopping ...
+2023-12-12 12:02:09 pid:178 Workerman[client.php] stopping ...
+2023-12-12 12:02:10 pid:178 worker[none:179] exit with status 9
+2023-12-12 12:02:10 pid:178 Workerman[client.php] has been stopped
+2023-12-12 12:02:11 pid:184 Workerman[client.php] start in DEBUG mode
+2023-12-12 12:02:51 pid:181 Workerman[server.php] stopping ...
+2023-12-12 12:02:51 pid:181 Workerman[server.php] has been stopped
+2023-12-12 12:02:52 pid:187 Workerman[server.php] start in DEBUG mode
+2023-12-12 12:02:55 pid:184 Workerman[client.php] stopping ...
+2023-12-12 12:02:56 pid:184 Workerman[client.php] stopping ...
+2023-12-12 12:02:57 pid:184 worker[none:185] exit with status 9
+2023-12-12 12:02:57 pid:184 Workerman[client.php] has been stopped
+2023-12-12 12:02:58 pid:190 Workerman[client.php] start in DEBUG mode
+2023-12-12 12:03:31 pid:187 Workerman[server.php] stopping ...
+2023-12-12 12:03:31 pid:187 worker[ChannelServer:188] exit with status 2
+2023-12-12 12:03:31 pid:187 worker[none:189] exit with status 2
+2023-12-12 12:03:31 pid:187 Workerman[server.php] has been stopped
+2023-12-12 12:03:32 pid:193 Workerman[server.php] start in DEBUG mode
+2023-12-12 12:03:36 pid:190 Workerman[client.php] stopping ...
+2023-12-12 12:03:36 pid:190 Workerman[client.php] stopping ...
+2023-12-12 12:03:38 pid:190 worker[none:191] exit with status 9
+2023-12-12 12:03:38 pid:190 Workerman[client.php] has been stopped
+2023-12-12 12:03:39 pid:196 Workerman[client.php] start in DEBUG mode
+2023-12-12 12:04:45 pid:197 Worker[197] process terminated with ERROR: E_ERROR "Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php:347
+Stack trace:
+#0 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php(347): method_exists(NULL, 'onConnect')
+#1 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #26, 4, Resource id #26)
+#2 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#3 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#4 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#8 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#9 {main}
+  thrown in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php on line 347"
+2023-12-12 12:04:45 pid:196 worker[none:197] exit with status 65280
+2023-12-12 12:05:09 pid:196 Workerman[client.php] stopping ...
+2023-12-12 12:05:10 pid:196 Workerman[client.php] has been stopped
+2023-12-12 12:19:37 pid:202 Workerman[client.php] start in DEBUG mode
+2023-12-12 12:19:48 pid:203 Worker[203] process terminated with ERROR: E_ERROR "Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php:347
+Stack trace:
+#0 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php(347): method_exists(NULL, 'onConnect')
+#1 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #25, 4, Resource id #25)
+#2 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#3 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#4 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#8 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#9 {main}
+  thrown in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php on line 347"
+2023-12-12 12:19:48 pid:202 worker[none:203] exit with status 65280
+2023-12-12 12:19:52 pid:202 Workerman[client.php] stopping ...
+2023-12-12 12:19:54 pid:202 worker[none:205] exit with status 9
+2023-12-12 12:19:54 pid:202 Workerman[client.php] has been stopped
+2023-12-12 12:21:41 pid:206 Workerman[client.php] start in DEBUG mode
+2023-12-12 12:21:45 pid:207 Error: Call to a member function close() on null in /usr/src/myapp/workerman-port-mapping/client.php:92
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /usr/src/myapp/workerman-port-mapping/vendor/workerman/channel/src/Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24, 2, Resource id #24)
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#8 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#10 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#11 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#12 {main}
+2023-12-12 12:21:51 pid:207 Worker[207] process terminated
+2023-12-12 12:21:51 pid:206 worker[none:207] exit with status 64000
+2023-12-12 12:22:00 pid:209 Error: Call to a member function close() on null in /usr/src/myapp/workerman-port-mapping/client.php:92
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /usr/src/myapp/workerman-port-mapping/vendor/workerman/channel/src/Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25, 2, Resource id #25)
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#8 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#10 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#11 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#12 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#13 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#14 {main}
+2023-12-12 12:22:16 pid:209 Worker[209] process terminated
+2023-12-12 12:22:16 pid:206 worker[none:209] exit with status 64000
+2023-12-12 12:22:18 pid:206 Workerman[client.php] stopping ...
+2023-12-12 12:22:18 pid:206 Workerman[client.php] stopping ...
+2023-12-12 12:22:19 pid:206 Workerman[client.php] stopping ...
+2023-12-12 12:22:20 pid:206 worker[none:210] exit with status 9
+2023-12-12 12:22:20 pid:206 Workerman[client.php] has been stopped
+2023-12-12 12:22:48 pid:211 Workerman[client.php] start in DEBUG mode
+2023-12-12 12:22:52 pid:212 Worker[212] process terminated with ERROR: E_ERROR "Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php:347
+Stack trace:
+#0 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php(347): method_exists(NULL, 'onConnect')
+#1 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #25, 4, Resource id #25)
+#2 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#3 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#4 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#8 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#9 {main}
+  thrown in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php on line 347"
+2023-12-12 12:22:52 pid:211 worker[none:212] exit with status 65280
+2023-12-12 12:22:55 pid:211 Workerman[client.php] stopping ...
+2023-12-12 12:22:55 pid:211 Workerman[client.php] stopping ...
+2023-12-12 12:22:57 pid:211 worker[none:214] exit with status 9
+2023-12-12 12:22:57 pid:211 Workerman[client.php] has been stopped
+2023-12-12 12:23:49 pid:215 Workerman[client.php] start in DEBUG mode
+2023-12-12 12:23:53 pid:216 Error: Call to a member function close() on null in /usr/src/myapp/workerman-port-mapping/client.php:92
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /usr/src/myapp/workerman-port-mapping/vendor/workerman/channel/src/Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24, 2, Resource id #24)
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#8 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#10 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#11 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#12 {main}
+2023-12-12 12:23:55 pid:216 Worker[216] process terminated
+2023-12-12 12:23:55 pid:215 worker[none:216] exit with status 64000
+2023-12-12 12:23:59 pid:215 Workerman[client.php] stopping ...
+2023-12-12 12:23:59 pid:215 Workerman[client.php] stopping ...
+2023-12-12 12:23:59 pid:215 Workerman[client.php] stopping ...
+2023-12-12 12:24:00 pid:215 Workerman[client.php] stopping ...
+2023-12-12 12:24:00 pid:215 Workerman[client.php] stopping ...
+2023-12-12 12:24:01 pid:215 worker[none:218] exit with status 9
+2023-12-12 12:24:01 pid:215 Workerman[client.php] has been stopped
+2023-12-12 12:24:02 pid:219 Workerman[client.php] start in DEBUG mode
+2023-12-12 12:24:04 pid:220 Error: Call to a member function close() on null in /usr/src/myapp/workerman-port-mapping/client.php:92
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /usr/src/myapp/workerman-port-mapping/vendor/workerman/channel/src/Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24, 2, Resource id #24)
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#8 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#10 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#11 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#12 {main}
+2023-12-12 12:24:05 pid:220 Worker[220] process terminated
+2023-12-12 12:24:05 pid:219 Workerman[client.php] stopping ...
+2023-12-12 12:24:05 pid:219 worker[none:220] exit with status 2
+2023-12-12 12:24:05 pid:219 Workerman[client.php] has been stopped
+2023-12-12 12:24:07 pid:221 Workerman[client.php] start in DEBUG mode
+2023-12-12 12:24:09 pid:222 Worker[222] process terminated with ERROR: E_ERROR "Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php:347
+Stack trace:
+#0 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php(347): method_exists(NULL, 'onConnect')
+#1 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #25, 4, Resource id #25)
+#2 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#3 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#4 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#8 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#9 {main}
+  thrown in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php on line 347"
+2023-12-12 12:24:09 pid:221 worker[none:222] exit with status 65280
+2023-12-12 12:24:12 pid:221 Workerman[client.php] stopping ...
+2023-12-12 12:24:12 pid:221 Workerman[client.php] stopping ...
+2023-12-12 12:24:13 pid:221 Workerman[client.php] has been stopped
+2023-12-12 12:27:17 pid:19 Workerman[server.php] start in DEBUG mode
+2023-12-12 12:27:41 pid:29 Workerman[client.php] start in DEBUG mode
+2023-12-12 12:29:14 pid:19 Workerman[server.php] stopping ...
+2023-12-12 12:29:14 pid:19 worker[ChannelServer:20] exit with status 2
+2023-12-12 12:29:14 pid:19 Workerman[server.php] has been stopped
+2023-12-12 12:29:15 pid:47 Workerman[server.php] start in DEBUG mode
+2023-12-12 12:29:19 pid:29 Workerman[client.php] stopping ...
+2023-12-12 12:29:20 pid:29 Workerman[client.php] stopping ...
+2023-12-12 12:29:21 pid:29 worker[none:30] exit with status 9
+2023-12-12 12:29:21 pid:29 Workerman[client.php] has been stopped
+2023-12-12 12:29:23 pid:50 Workerman[client.php] start in DEBUG mode
+2023-12-12 12:29:27 pid:51 Worker[51] process terminated with ERROR: E_ERROR "Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php:347
+Stack trace:
+#0 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php(347): method_exists(NULL, 'onConnect')
+#1 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #25, 4, Resource id #25)
+#2 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#3 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#4 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(478): Workerman\Worker::forkWorkers()
+#8 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#9 {main}
+  thrown in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php on line 347"
+2023-12-12 12:29:27 pid:50 worker[none:51] exit with status 65280
+2023-12-12 12:33:36 pid:53 Error: Call to a member function close() on null in /usr/src/myapp/workerman-port-mapping/client.php:92
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /usr/src/myapp/workerman-port-mapping/vendor/workerman/channel/src/Client.php(126): call_user_func(Object(Closure), Array)
+#2 [internal function]: Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/TcpConnection.php(645): call_user_func('Channel\\Client:...', Object(Workerman\Connection\AsyncTcpConnection), 'a:2:{s:7:"chann...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25, 2, Resource id #25)
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(185): EventBase->loop()
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2231): Workerman\Events\Event->loop()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1356): Workerman\Worker->run()
+#8 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1188): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1162): Workerman\Worker::forkWorkersForLinux()
+#10 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1490): Workerman\Worker::forkWorkers()
+#11 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1439): Workerman\Worker::monitorWorkersForLinux()
+#12 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(480): Workerman\Worker::monitorWorkers()
+#13 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#14 {main}
+2023-12-12 12:33:37 pid:53 Worker[53] process terminated
+2023-12-12 12:33:37 pid:50 worker[none:53] exit with status 64000
+2023-12-12 12:33:43 pid:50 Workerman[client.php] stopping ...
+2023-12-12 12:33:44 pid:50 Workerman[client.php] stopping ...
+2023-12-12 12:33:44 pid:50 Workerman[client.php] stopping ...
+2023-12-12 12:33:44 pid:50 Workerman[client.php] stopping ...
+2023-12-12 12:33:44 pid:50 Workerman[client.php] stopping ...
+2023-12-12 12:33:44 pid:50 Workerman[client.php] stopping ...
+2023-12-12 12:33:45 pid:50 Workerman[client.php] stopping ...
+2023-12-12 12:33:45 pid:50 worker[none:54] exit with status 9
+2023-12-12 12:33:45 pid:50 Workerman[client.php] has been stopped
+2023-12-12 04:34:05 pid:81 Workerman[client.php] start in DEBUG mode
+2023-12-12 04:34:09 pid:82 Exception: queue:cs_connect127.0.0.1:9501 have not callback in /usr/src/myapp/workerman-port-mapping/vendor/workerman/channel/src/Client.php:146
+Stack trace:
+#0 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/TcpConnection.php(656): Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#1 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #27, 2, Resource id #27)
+#2 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(195): EventBase->loop()
+#3 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2410): Workerman\Events\Event->loop()
+#4 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1543): Workerman\Worker->run()
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1373): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1347): Workerman\Worker::forkWorkersForLinux()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(547): Workerman\Worker::forkWorkers()
+#8 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#9 {main}
+2023-12-12 04:34:20 pid:82 Worker[82] process terminated
+2023-12-12 12:34:20 pid:47 Workerman[server.php] stopping ...
+2023-12-12 04:34:20 pid:81 worker[none:82] exit with status 64000
+2023-12-12 12:34:20 pid:47 Workerman[server.php] has been stopped
+2023-12-12 04:34:21 pid:85 Workerman[server.php] start in DEBUG mode
+2023-12-12 04:34:23 pid:81 Workerman[client.php] stopping ...
+2023-12-12 04:34:23 pid:81 Workerman[client.php] stopping ...
+2023-12-12 04:34:24 pid:81 Workerman[client.php] stopping ...
+2023-12-12 04:34:24 pid:81 Workerman[client.php] stopping ...
+2023-12-12 04:34:25 pid:81 Workerman[client.php] stopping ...
+2023-12-12 04:34:25 pid:81 worker[none:84] exit with status 9
+2023-12-12 04:34:25 pid:81 Workerman[client.php] has been stopped
+2023-12-12 04:34:26 pid:88 Workerman[client.php] start in DEBUG mode
+2023-12-12 04:34:28 pid:89 Worker[89] process terminated with ERROR: E_ERROR "Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php:355
+Stack trace:
+#0 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php(355): method_exists(NULL, 'onConnect')
+#1 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #28, 4, Resource id #28)
+#2 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(195): EventBase->loop()
+#3 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2410): Workerman\Events\Event->loop()
+#4 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1543): Workerman\Worker->run()
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1373): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1347): Workerman\Worker::forkWorkersForLinux()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(547): Workerman\Worker::forkWorkers()
+#8 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#9 {main}
+  thrown in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php on line 355"
+2023-12-12 04:34:28 pid:88 worker[none:89] exit with status 65280
+2023-12-12 04:34:32 pid:91 Error: Call to a member function close() on null in /usr/src/myapp/workerman-port-mapping/client.php:92
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /usr/src/myapp/workerman-port-mapping/vendor/workerman/channel/src/Client.php(136): call_user_func(Object(Closure), Array)
+#2 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/TcpConnection.php(656): Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28, 2, Resource id #28)
+#4 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(195): EventBase->loop()
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2410): Workerman\Events\Event->loop()
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1543): Workerman\Worker->run()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1373): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1347): Workerman\Worker::forkWorkersForLinux()
+#9 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1677): Workerman\Worker::forkWorkers()
+#10 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1626): Workerman\Worker::monitorWorkersForLinux()
+#11 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::monitorWorkers()
+#12 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#13 {main}
+2023-12-12 04:34:34 pid:88 Workerman[client.php] stopping ...
+2023-12-12 04:34:34 pid:91 Worker[91] process terminated
+2023-12-12 04:34:34 pid:88 worker[none:91] exit with status 64000
+2023-12-12 04:34:34 pid:88 Workerman[client.php] has been stopped
+2023-12-12 04:35:01 pid:99 Workerman[client.php] start in DEBUG mode
+2023-12-12 04:35:05 pid:100 Worker[100] process terminated with ERROR: E_ERROR "Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php:355
+Stack trace:
+#0 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php(355): method_exists(NULL, 'onConnect')
+#1 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #28, 4, Resource id #28)
+#2 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(195): EventBase->loop()
+#3 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2410): Workerman\Events\Event->loop()
+#4 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1543): Workerman\Worker->run()
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1373): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1347): Workerman\Worker::forkWorkersForLinux()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(547): Workerman\Worker::forkWorkers()
+#8 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#9 {main}
+  thrown in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php on line 355"
+2023-12-12 04:35:05 pid:99 worker[none:100] exit with status 65280
+2023-12-12 04:35:07 pid:102 Error: Call to a member function close() on null in /usr/src/myapp/workerman-port-mapping/client.php:92
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /usr/src/myapp/workerman-port-mapping/vendor/workerman/channel/src/Client.php(136): call_user_func(Object(Closure), Array)
+#2 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/TcpConnection.php(656): Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28, 2, Resource id #28)
+#4 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(195): EventBase->loop()
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2410): Workerman\Events\Event->loop()
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1543): Workerman\Worker->run()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1373): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1347): Workerman\Worker::forkWorkersForLinux()
+#9 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1677): Workerman\Worker::forkWorkers()
+#10 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1626): Workerman\Worker::monitorWorkersForLinux()
+#11 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::monitorWorkers()
+#12 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#13 {main}
+2023-12-12 04:35:08 pid:102 Worker[102] process terminated
+2023-12-12 04:35:08 pid:99 Workerman[client.php] stopping ...
+2023-12-12 04:35:08 pid:99 worker[none:102] exit with status 2
+2023-12-12 04:35:08 pid:99 Workerman[client.php] has been stopped
+2023-12-12 04:37:05 pid:103 Workerman[client.php] start in DEBUG mode
+2023-12-12 04:37:16 pid:104 Worker[104] process terminated with ERROR: E_ERROR "Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php:356
+Stack trace:
+#0 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php(356): method_exists(NULL, 'onConnect')
+#1 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #28, 4, Resource id #28)
+#2 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(195): EventBase->loop()
+#3 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2410): Workerman\Events\Event->loop()
+#4 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1543): Workerman\Worker->run()
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1373): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1347): Workerman\Worker::forkWorkersForLinux()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(547): Workerman\Worker::forkWorkers()
+#8 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#9 {main}
+  thrown in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php on line 356"
+2023-12-12 04:37:16 pid:103 worker[none:104] exit with status 65280
+2023-12-12 04:38:58 pid:103 Workerman[client.php] stopping ...
+2023-12-12 04:39:00 pid:103 worker[none:106] exit with status 9
+2023-12-12 04:39:00 pid:103 Workerman[client.php] has been stopped
+2023-12-12 04:39:04 pid:107 Workerman[client.php] start in DEBUG mode
+2023-12-12 04:39:10 pid:108 Error: Call to a member function close() on null in /usr/src/myapp/workerman-port-mapping/client.php:92
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /usr/src/myapp/workerman-port-mapping/vendor/workerman/channel/src/Client.php(136): call_user_func(Object(Closure), Array)
+#2 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/TcpConnection.php(656): Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #27, 2, Resource id #27)
+#4 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(195): EventBase->loop()
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2410): Workerman\Events\Event->loop()
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1543): Workerman\Worker->run()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1373): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1347): Workerman\Worker::forkWorkersForLinux()
+#9 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(547): Workerman\Worker::forkWorkers()
+#10 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#11 {main}
+2023-12-12 04:39:17 pid:108 Worker[108] process terminated
+2023-12-12 04:39:17 pid:107 Workerman[client.php] stopping ...
+2023-12-12 04:39:17 pid:107 worker[none:108] exit with status 2
+2023-12-12 04:39:17 pid:107 Workerman[client.php] has been stopped
+2023-12-12 04:39:19 pid:109 Workerman[client.php] start in DEBUG mode
+2023-12-12 04:41:21 pid:109 Workerman[client.php] stopping ...
+2023-12-12 04:41:21 pid:109 Workerman[client.php] stopping ...
+2023-12-12 04:41:23 pid:109 worker[none:110] exit with status 9
+2023-12-12 04:41:23 pid:109 Workerman[client.php] has been stopped
+2023-12-12 04:41:27 pid:112 Workerman[client.php] start in DEBUG mode
+2023-12-12 04:41:39 pid:112 Workerman[client.php] stopping ...
+2023-12-12 04:41:40 pid:112 Workerman[client.php] stopping ...
+2023-12-12 04:41:41 pid:112 worker[none:113] exit with status 9
+2023-12-12 04:41:41 pid:112 Workerman[client.php] has been stopped
+2023-12-12 04:59:54 pid:115 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:02:39 pid:115 Workerman[client.php] stopping ...
+2023-12-12 05:02:39 pid:115 Workerman[client.php] stopping ...
+2023-12-12 05:02:41 pid:115 worker[none:116] exit with status 9
+2023-12-12 05:02:41 pid:115 Workerman[client.php] has been stopped
+2023-12-12 05:03:53 pid:147 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:03:58 pid:148 Worker[148] process terminated with ERROR: E_ERROR "Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php:355
+Stack trace:
+#0 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php(355): method_exists(NULL, 'onConnect')
+#1 [internal function]: Workerman\Connection\AsyncTcpConnection->checkConnection(Resource id #29, 4, Resource id #29)
+#2 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(195): EventBase->loop()
+#3 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2408): Workerman\Events\Event->loop()
+#4 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(546): Workerman\Worker::forkWorkers()
+#8 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#9 {main}
+  thrown in /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/AsyncTcpConnection.php on line 355"
+2023-12-12 05:03:58 pid:147 worker[none:148] exit with status 65280
+2023-12-12 05:04:02 pid:150 Error: Call to a member function close() on null in /usr/src/myapp/workerman-port-mapping/client.php:92
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /usr/src/myapp/workerman-port-mapping/vendor/workerman/channel/src/Client.php(136): call_user_func(Object(Closure), Array)
+#2 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Connection/TcpConnection.php(660): Channel\Client::onRemoteMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #29, 2, Resource id #29)
+#4 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Events/Event.php(195): EventBase->loop()
+#5 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(2408): Workerman\Events\Event->loop()
+#6 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#7 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#9 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#10 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#11 /usr/src/myapp/workerman-port-mapping/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#12 /usr/src/myapp/workerman-port-mapping/client.php(24): Workerman\Worker::runAll()
+#13 {main}
+2023-12-12 05:04:23 pid:150 Worker[150] process terminated
+2023-12-12 05:04:23 pid:147 worker[none:150] exit with status 64000
+2023-12-12 05:09:06 pid:147 Workerman[client.php] stopping ...
+2023-12-12 05:09:06 pid:147 Workerman[client.php] stopping ...
+2023-12-12 05:09:07 pid:147 Workerman[client.php] stopping ...
+2023-12-12 05:09:07 pid:147 Workerman[client.php] stopping ...
+2023-12-12 05:09:07 pid:147 Workerman[client.php] stopping ...
+2023-12-12 05:09:08 pid:147 worker[none:151] exit with status 9
+2023-12-12 05:09:08 pid:147 Workerman[client.php] has been stopped
+2023-12-12 05:09:09 pid:152 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:10:16 pid:152 Workerman[client.php] stopping ...
+2023-12-12 05:10:16 pid:152 Workerman[client.php] stopping ...
+2023-12-12 05:10:16 pid:152 Workerman[client.php] stopping ...
+2023-12-12 05:10:17 pid:152 Workerman[client.php] stopping ...
+2023-12-12 05:10:17 pid:152 Workerman[client.php] stopping ...
+2023-12-12 05:10:18 pid:152 worker[none:153] exit with status 9
+2023-12-12 05:10:18 pid:152 Workerman[client.php] has been stopped
+2023-12-12 05:10:19 pid:155 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:10:57 pid:155 Workerman[client.php] stopping ...
+2023-12-12 05:10:57 pid:155 Workerman[client.php] stopping ...
+2023-12-12 05:10:59 pid:155 worker[none:156] exit with status 9
+2023-12-12 05:10:59 pid:155 Workerman[client.php] has been stopped
+2023-12-12 05:11:01 pid:158 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:11:27 pid:158 Workerman[client.php] stopping ...
+2023-12-12 05:11:27 pid:158 Workerman[client.php] stopping ...
+2023-12-12 05:11:29 pid:158 worker[none:159] exit with status 9
+2023-12-12 05:11:29 pid:158 Workerman[client.php] has been stopped
+2023-12-12 05:11:30 pid:161 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:12:55 pid:161 Workerman[client.php] stopping ...
+2023-12-12 05:12:56 pid:161 Workerman[client.php] stopping ...
+2023-12-12 05:12:56 pid:161 Workerman[client.php] stopping ...
+2023-12-12 05:12:57 pid:161 worker[none:162] exit with status 9
+2023-12-12 05:12:57 pid:161 Workerman[client.php] has been stopped
+2023-12-12 05:12:59 pid:164 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:17:31 pid:85 Workerman[server.php] stopping ...
+2023-12-12 05:17:31 pid:85 Workerman[server.php] has been stopped
+2023-12-12 05:17:32 pid:167 Workerman[server.php] start in DEBUG mode
+2023-12-12 05:17:40 pid:164 Workerman[client.php] stopping ...
+2023-12-12 05:17:41 pid:164 Workerman[client.php] stopping ...
+2023-12-12 05:17:42 pid:164 worker[none:165] exit with status 9
+2023-12-12 05:17:42 pid:164 Workerman[client.php] has been stopped
+2023-12-12 05:17:43 pid:170 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:22:03 pid:167 Workerman[server.php] stopping ...
+2023-12-12 05:22:03 pid:167 Workerman[server.php] has been stopped
+2023-12-12 05:22:06 pid:173 Workerman[server.php] start in DEBUG mode
+2023-12-12 05:22:14 pid:170 Workerman[client.php] stopping ...
+2023-12-12 05:22:15 pid:170 Workerman[client.php] stopping ...
+2023-12-12 05:22:15 pid:170 Workerman[client.php] stopping ...
+2023-12-12 05:22:15 pid:170 Workerman[client.php] stopping ...
+2023-12-12 05:22:16 pid:170 worker[none:171] exit with status 9
+2023-12-12 05:22:16 pid:170 Workerman[client.php] has been stopped
+2023-12-12 05:22:18 pid:176 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:22:58 pid:173 Workerman[server.php] stopping ...
+2023-12-12 05:22:58 pid:173 worker[ChannelServer:174] exit with status 2
+2023-12-12 05:22:58 pid:173 worker[none:175] exit with status 2
+2023-12-12 05:22:58 pid:173 Workerman[server.php] has been stopped
+2023-12-12 05:23:00 pid:179 Workerman[server.php] start in DEBUG mode
+2023-12-12 05:23:07 pid:176 Workerman[client.php] stopping ...
+2023-12-12 05:23:08 pid:176 Workerman[client.php] has been stopped
+2023-12-12 05:23:09 pid:182 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:32:49 pid:179 Workerman[server.php] stopping ...
+2023-12-12 05:32:49 pid:179 Workerman[server.php] has been stopped
+2023-12-12 05:32:50 pid:186 Workerman[server.php] start in DEBUG mode
+2023-12-12 05:32:57 pid:182 Workerman[client.php] stopping ...
+2023-12-12 05:32:57 pid:182 Workerman[client.php] stopping ...
+2023-12-12 05:32:59 pid:182 worker[none:183] exit with status 9
+2023-12-12 05:32:59 pid:182 Workerman[client.php] has been stopped
+2023-12-12 05:33:00 pid:189 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:39:21 pid:186 Workerman[server.php] stopping ...
+2023-12-12 05:39:21 pid:186 Workerman[server.php] has been stopped
+2023-12-12 05:39:22 pid:192 Workerman[server.php] start in DEBUG mode
+2023-12-12 05:39:27 pid:189 Workerman[client.php] stopping ...
+2023-12-12 05:39:27 pid:189 Workerman[client.php] stopping ...
+2023-12-12 05:39:29 pid:189 Workerman[client.php] stopping ...
+2023-12-12 05:39:29 pid:189 worker[none:190] exit with status 9
+2023-12-12 05:39:29 pid:189 Workerman[client.php] has been stopped
+2023-12-12 05:39:30 pid:195 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:40:18 pid:192 Workerman[server.php] stopping ...
+2023-12-12 05:40:18 pid:192 Workerman[server.php] has been stopped
+2023-12-12 05:40:20 pid:198 Workerman[server.php] start in DEBUG mode
+2023-12-12 05:40:42 pid:195 Workerman[client.php] stopping ...
+2023-12-12 05:40:42 pid:195 Workerman[client.php] stopping ...
+2023-12-12 05:40:42 pid:195 Workerman[client.php] stopping ...
+2023-12-12 05:40:43 pid:195 Workerman[client.php] stopping ...
+2023-12-12 05:40:44 pid:195 Workerman[client.php] stopping ...
+2023-12-12 05:40:44 pid:195 worker[none:196] exit with status 9
+2023-12-12 05:40:44 pid:195 Workerman[client.php] has been stopped
+2023-12-12 05:40:45 pid:201 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:41:35 pid:198 Workerman[server.php] stopping ...
+2023-12-12 05:41:35 pid:198 worker[ChannelServer:199] exit with status 2
+2023-12-12 05:41:35 pid:198 worker[none:200] exit with status 2
+2023-12-12 05:41:35 pid:198 Workerman[server.php] has been stopped
+2023-12-12 05:41:37 pid:203 Workerman[server.php] start in DEBUG mode
+2023-12-12 05:45:05 pid:203 Workerman[server.php] stopping ...
+2023-12-12 05:45:05 pid:203 Workerman[server.php] has been stopped
+2023-12-12 05:45:06 pid:207 Workerman[server.php] start in DEBUG mode
+2023-12-12 05:45:12 pid:201 Workerman[client.php] stopping ...
+2023-12-12 05:45:14 pid:201 worker[none:202] exit with status 9
+2023-12-12 05:45:14 pid:201 Workerman[client.php] has been stopped
+2023-12-12 05:45:15 pid:210 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:47:11 pid:207 Workerman[server.php] stopping ...
+2023-12-12 05:47:11 pid:207 Workerman[server.php] has been stopped
+2023-12-12 05:47:12 pid:213 Workerman[server.php] start in DEBUG mode
+2023-12-12 05:47:16 pid:210 Workerman[client.php] stopping ...
+2023-12-12 05:47:17 pid:210 Workerman[client.php] stopping ...
+2023-12-12 05:47:18 pid:210 worker[none:211] exit with status 9
+2023-12-12 05:47:18 pid:210 Workerman[client.php] has been stopped
+2023-12-12 05:47:19 pid:216 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:49:18 pid:213 Workerman[server.php] stopping ...
+2023-12-12 05:49:18 pid:213 Workerman[server.php] has been stopped
+2023-12-12 05:49:20 pid:219 Workerman[server.php] start in DEBUG mode
+2023-12-12 05:49:24 pid:216 Workerman[client.php] stopping ...
+2023-12-12 05:49:24 pid:216 Workerman[client.php] has been stopped
+2023-12-12 05:49:25 pid:222 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:50:27 pid:219 Workerman[server.php] stopping ...
+2023-12-12 05:50:27 pid:219 worker[ChannelServer:220] exit with status 2
+2023-12-12 05:50:27 pid:219 Workerman[server.php] has been stopped
+2023-12-12 05:50:28 pid:225 Workerman[server.php] start in DEBUG mode
+2023-12-12 05:50:34 pid:222 Workerman[client.php] stopping ...
+2023-12-12 05:50:36 pid:222 worker[none:223] exit with status 9
+2023-12-12 05:50:36 pid:222 Workerman[client.php] has been stopped
+2023-12-12 05:50:36 pid:228 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:54:09 pid:228 Workerman[client.php] stopping ...
+2023-12-12 05:54:10 pid:228 Workerman[client.php] stopping ...
+2023-12-12 05:54:10 pid:228 Workerman[client.php] stopping ...
+2023-12-12 05:54:10 pid:228 Workerman[client.php] stopping ...
+2023-12-12 05:54:11 pid:228 Workerman[client.php] stopping ...
+2023-12-12 05:54:11 pid:228 Workerman[client.php] stopping ...
+2023-12-12 05:54:11 pid:228 worker[none:229] exit with status 9
+2023-12-12 05:54:11 pid:228 Workerman[client.php] has been stopped
+2023-12-12 05:54:13 pid:272 Workerman[client.php] start in DEBUG mode
+2023-12-12 05:59:55 pid:272 Workerman[client.php] stopping ...
+2023-12-12 05:59:57 pid:272 Workerman[client.php] stopping ...
+2023-12-12 05:59:57 pid:272 worker[none:273] exit with status 9
+2023-12-12 05:59:57 pid:272 Workerman[client.php] has been stopped
+2023-12-12 05:59:59 pid:275 Workerman[client.php] start in DEBUG mode
+2023-12-12 06:05:30 pid:225 Workerman[server.php] stopping ...
+2023-12-12 06:05:30 pid:225 Workerman[server.php] has been stopped
+2023-12-12 06:05:31 pid:278 Workerman[server.php] start in DEBUG mode
+2023-12-12 06:05:51 pid:275 Workerman[client.php] stopping ...
+2023-12-12 06:05:52 pid:275 Workerman[client.php] stopping ...
+2023-12-12 06:05:52 pid:275 Workerman[client.php] stopping ...
+2023-12-12 06:05:53 pid:275 Workerman[client.php] stopping ...
+2023-12-12 06:05:53 pid:275 worker[none:276] exit with status 9
+2023-12-12 06:05:53 pid:275 Workerman[client.php] has been stopped
+2023-12-12 06:05:54 pid:281 Workerman[client.php] start in DEBUG mode
+2023-12-12 06:10:29 pid:278 Workerman[server.php] stopping ...
+2023-12-12 06:10:29 pid:278 Workerman[server.php] has been stopped
+2023-12-12 06:10:32 pid:321 Workerman[server.php] start in DEBUG mode
+2023-12-12 06:10:37 pid:281 Workerman[client.php] stopping ...
+2023-12-12 06:10:39 pid:281 worker[none:282] exit with status 9
+2023-12-12 06:10:39 pid:281 Workerman[client.php] has been stopped
+2023-12-12 06:10:41 pid:324 Workerman[client.php] start in DEBUG mode
+2023-12-12 06:13:52 pid:321 Workerman[server.php] stopping ...
+2023-12-12 06:13:52 pid:321 Workerman[server.php] has been stopped
+2023-12-12 06:13:53 pid:363 Workerman[server.php] start in DEBUG mode
+2023-12-12 06:13:57 pid:324 Workerman[client.php] stopping ...
+2023-12-12 06:13:58 pid:324 Workerman[client.php] stopping ...
+2023-12-12 06:13:58 pid:324 Workerman[client.php] stopping ...
+2023-12-12 06:13:59 pid:324 Workerman[client.php] stopping ...
+2023-12-12 06:13:59 pid:324 worker[none:325] exit with status 9
+2023-12-12 06:13:59 pid:324 Workerman[client.php] has been stopped
+2023-12-12 06:14:00 pid:366 Workerman[client.php] start in DEBUG mode
+2023-12-12 06:16:06 pid:366 Workerman[client.php] stopping ...
+2023-12-12 06:16:07 pid:366 Workerman[client.php] stopping ...
+2023-12-12 06:16:08 pid:366 worker[none:367] exit with status 9
+2023-12-12 06:16:08 pid:366 Workerman[client.php] has been stopped
+2023-12-12 06:16:10 pid:404 Workerman[client.php] start in DEBUG mode
+2023-12-12 06:16:15 pid:363 Workerman[server.php] stopping ...
+2023-12-12 06:16:15 pid:363 Workerman[server.php] has been stopped
+2023-12-12 06:16:17 pid:406 Workerman[server.php] start in DEBUG mode
+2023-12-12 06:18:45 pid:406 Workerman[server.php] stopping ...
+2023-12-12 06:18:45 pid:406 Workerman[server.php] has been stopped
+2023-12-12 06:18:46 pid:448 Workerman[server.php] start in DEBUG mode
+2023-12-12 06:19:04 pid:404 Workerman[client.php] stopping ...
+2023-12-12 06:19:04 pid:404 Workerman[client.php] stopping ...
+2023-12-12 06:19:05 pid:404 Workerman[client.php] stopping ...
+2023-12-12 06:19:05 pid:404 Workerman[client.php] has been stopped
+2023-12-12 06:19:06 pid:452 Workerman[client.php] start in DEBUG mode
+2023-12-12 06:20:58 pid:452 Workerman[client.php] stopping ...
+2023-12-12 06:20:58 pid:452 Workerman[client.php] stopping ...
+2023-12-12 06:20:59 pid:452 Workerman[client.php] stopping ...
+2023-12-12 06:21:00 pid:452 worker[none:453] exit with status 9
+2023-12-12 06:21:00 pid:452 Workerman[client.php] has been stopped
+2023-12-12 06:21:01 pid:455 Workerman[client.php] start in DEBUG mode
+2023-12-12 06:21:05 pid:448 Workerman[server.php] stopping ...
+2023-12-12 06:21:05 pid:448 Workerman[server.php] has been stopped
+2023-12-12 06:21:06 pid:457 Workerman[server.php] start in DEBUG mode
+2023-12-12 06:21:09 pid:455 Workerman[client.php] stopping ...
+2023-12-12 06:21:09 pid:455 Workerman[client.php] stopping ...
+2023-12-12 06:21:09 pid:455 Workerman[client.php] stopping ...
+2023-12-12 06:21:11 pid:455 worker[none:456] exit with status 9
+2023-12-12 06:21:11 pid:455 Workerman[client.php] has been stopped
+2023-12-12 06:21:11 pid:460 Workerman[client.php] start in DEBUG mode
+2023-12-12 06:22:30 pid:457 Workerman[server.php] stopping ...
+2023-12-12 06:22:30 pid:457 Workerman[server.php] has been stopped
+2023-12-12 06:22:33 pid:460 Workerman[client.php] stopping ...
+2023-12-12 06:22:33 pid:460 Workerman[client.php] has been stopped
+2023-12-12 06:22:41 pid:499 Workerman[server.php] start in DEBUG mode
+2023-12-12 06:22:44 pid:502 Workerman[client.php] start in DEBUG mode
+2023-12-12 06:23:16 pid:499 Workerman[server.php] stopping ...
+2023-12-12 06:23:16 pid:499 worker[ChannelServer:500] exit with status 2
+2023-12-12 06:23:16 pid:499 worker[none:501] exit with status 2
+2023-12-12 06:23:16 pid:499 Workerman[server.php] has been stopped
+2023-12-12 06:23:18 pid:505 Workerman[server.php] start in DEBUG mode
+2023-12-12 06:26:49 pid:505 Workerman[server.php] stopping ...
+2023-12-12 06:26:49 pid:505 Workerman[server.php] has been stopped
+2023-12-12 06:26:56 pid:502 Workerman[client.php] stopping ...
+2023-12-12 06:26:56 pid:502 worker[none:503] exit with status 2
+2023-12-12 06:26:56 pid:502 Workerman[client.php] has been stopped
+2023-12-12 06:26:59 pid:549 Workerman[server.php] start in DEBUG mode
+2023-12-12 06:27:02 pid:552 Workerman[client.php] start in DEBUG mode
+2023-12-12 06:48:52 pid:552 Workerman[client.php] stopping ...
+2023-12-12 06:48:53 pid:552 Workerman[client.php] stopping ...
+2023-12-12 06:48:54 pid:552 Workerman[client.php] stopping ...
+2023-12-12 06:48:54 pid:552 Workerman[client.php] stopping ...
+2023-12-12 06:48:54 pid:552 worker[none:553] exit with status 9
+2023-12-12 06:48:54 pid:552 Workerman[client.php] has been stopped
+2023-12-12 06:48:55 pid:639 Workerman[client.php] start in DEBUG mode
+2023-12-12 06:58:58 pid:549 Workerman[server.php] stopping ...
+2023-12-12 06:58:58 pid:549 worker[ChannelServer:550] exit with status 2
+2023-12-12 06:58:58 pid:549 Workerman[server.php] has been stopped
+2023-12-12 06:59:02 pid:639 Workerman[client.php] stopping ...
+2023-12-12 06:59:03 pid:639 Workerman[client.php] stopping ...
+2023-12-12 06:59:03 pid:639 Workerman[client.php] has been stopped
+2023-12-12 06:59:06 pid:641 Workerman[server.php] start in DEBUG mode
+2023-12-12 06:59:08 pid:644 Workerman[client.php] start in DEBUG mode
+2023-12-12 07:05:54 pid:644 Workerman[client.php] stopping ...
+2023-12-12 07:05:54 pid:644 Workerman[client.php] stopping ...
+2023-12-12 07:05:55 pid:644 Workerman[client.php] stopping ...
+2023-12-12 07:05:55 pid:644 Workerman[client.php] stopping ...
+2023-12-12 07:05:56 pid:644 Workerman[client.php] stopping ...
+2023-12-12 07:05:56 pid:644 worker[none:645] exit with status 9
+2023-12-12 07:05:56 pid:644 Workerman[client.php] has been stopped
+2023-12-12 07:06:54 pid:641 Workerman[server.php] stopping ...
+2023-12-12 07:06:54 pid:641 Workerman[server.php] has been stopped
+2023-12-12 07:06:55 pid:647 Workerman[server.php] start in DEBUG mode
+2023-12-12 07:07:00 pid:650 Workerman[client.php] start in DEBUG mode
+2023-12-12 07:09:13 pid:647 Workerman[server.php] stopping ...
+2023-12-12 07:09:13 pid:647 Workerman[server.php] has been stopped
+2023-12-12 07:09:17 pid:650 Workerman[client.php] stopping ...
+2023-12-12 07:09:18 pid:650 Workerman[client.php] has been stopped
+2023-12-12 07:09:21 pid:653 Workerman[server.php] start in DEBUG mode
+2023-12-12 07:09:28 pid:676 Workerman[client.php] start in DEBUG mode
+2023-12-12 07:11:33 pid:653 Workerman[server.php] stopping ...
+2023-12-12 07:11:33 pid:653 Workerman[server.php] has been stopped
+2023-12-12 07:13:48 pid:679 Workerman[server.php] start in DEBUG mode
+2023-12-12 07:13:58 pid:676 Workerman[client.php] stopping ...
+2023-12-12 07:13:58 pid:676 Workerman[client.php] stopping ...
+2023-12-12 07:14:00 pid:676 worker[none:677] exit with status 9
+2023-12-12 07:14:00 pid:676 Workerman[client.php] has been stopped
+2023-12-12 07:14:01 pid:682 Workerman[client.php] start in DEBUG mode
+2023-12-12 07:16:26 pid:682 Workerman[client.php] stopping ...
+2023-12-12 07:16:28 pid:682 worker[none:683] exit with status 9
+2023-12-12 07:16:28 pid:682 Workerman[client.php] has been stopped
+2023-12-12 07:16:33 pid:679 Workerman[server.php] stopping ...
+2023-12-12 07:16:33 pid:679 Workerman[server.php] has been stopped
+2023-12-12 07:16:34 pid:685 Workerman[server.php] start in DEBUG mode
+2023-12-12 07:16:42 pid:688 Workerman[client.php] start in DEBUG mode
+2023-12-12 07:19:08 pid:688 Workerman[client.php] stopping ...
+2023-12-12 07:19:09 pid:688 Workerman[client.php] stopping ...
+2023-12-12 07:19:10 pid:688 worker[none:689] exit with status 9
+2023-12-12 07:19:10 pid:688 Workerman[client.php] has been stopped
+2023-12-12 07:19:11 pid:691 Workerman[client.php] start in DEBUG mode
+2023-12-12 07:21:28 pid:691 Workerman[client.php] stopping ...
+2023-12-12 07:21:28 pid:691 Workerman[client.php] stopping ...
+2023-12-12 07:21:30 pid:691 worker[none:692] exit with status 9
+2023-12-12 07:21:30 pid:691 Workerman[client.php] has been stopped
+2023-12-12 07:21:31 pid:694 Workerman[client.php] start in DEBUG mode
+2023-12-12 07:25:59 pid:685 Workerman[server.php] stopping ...
+2023-12-12 07:25:59 pid:685 Workerman[server.php] has been stopped
+2023-12-12 07:26:03 pid:694 Workerman[client.php] stopping ...
+2023-12-12 07:26:03 pid:694 Workerman[client.php] has been stopped
+2023-12-12 07:26:05 pid:697 Workerman[server.php] start in DEBUG mode
+2023-12-12 07:26:07 pid:700 Workerman[client.php] start in DEBUG mode
+2023-12-12 07:29:30 pid:697 Workerman[server.php] stopping ...
+2023-12-12 07:29:30 pid:697 Workerman[server.php] has been stopped
+2023-12-12 07:29:31 pid:703 Workerman[server.php] start in DEBUG mode
+2023-12-12 07:29:37 pid:700 Workerman[client.php] stopping ...
+2023-12-12 07:29:37 pid:700 Workerman[client.php] stopping ...
+2023-12-12 07:29:38 pid:700 Workerman[client.php] stopping ...
+2023-12-12 07:29:38 pid:700 Workerman[client.php] stopping ...
+2023-12-12 07:29:38 pid:700 Workerman[client.php] stopping ...
+2023-12-12 07:29:39 pid:700 Workerman[client.php] stopping ...
+2023-12-12 07:29:39 pid:700 Workerman[client.php] stopping ...
+2023-12-12 07:29:39 pid:700 worker[none:701] exit with status 9
+2023-12-12 07:29:39 pid:700 Workerman[client.php] has been stopped
+2023-12-12 07:29:40 pid:706 Workerman[client.php] start in DEBUG mode
+2023-12-12 07:31:28 pid:706 Workerman[client.php] stopping ...
+2023-12-12 07:31:30 pid:706 worker[none:707] exit with status 9
+2023-12-12 07:31:30 pid:706 Workerman[client.php] has been stopped
+2023-12-12 07:31:33 pid:746 Workerman[client.php] start in DEBUG mode
+2023-12-12 07:31:37 pid:703 Workerman[server.php] stopping ...
+2023-12-12 07:31:37 pid:703 Workerman[server.php] has been stopped
+2023-12-12 07:31:38 pid:748 Workerman[server.php] start in DEBUG mode
+2023-12-12 07:35:43 pid:748 Workerman[server.php] stopping ...
+2023-12-12 07:35:43 pid:748 Workerman[server.php] has been stopped
+2023-12-12 07:35:45 pid:752 Workerman[server.php] start in DEBUG mode
+2023-12-12 07:35:49 pid:746 Workerman[client.php] stopping ...
+2023-12-12 07:35:50 pid:746 Workerman[client.php] stopping ...
+2023-12-12 07:35:51 pid:746 Workerman[client.php] stopping ...
+2023-12-12 07:35:51 pid:746 worker[none:747] exit with status 9
+2023-12-12 07:35:51 pid:746 Workerman[client.php] has been stopped
+2023-12-12 07:35:53 pid:755 Workerman[client.php] start in DEBUG mode
+2023-12-12 07:45:00 pid:752 Workerman[server.php] stopping ...
+2023-12-12 07:45:00 pid:752 Workerman[server.php] has been stopped
+2023-12-12 07:45:02 pid:758 Workerman[server.php] start in DEBUG mode
+2023-12-12 07:45:06 pid:755 Workerman[client.php] stopping ...
+2023-12-12 07:45:07 pid:755 Workerman[client.php] stopping ...
+2023-12-12 07:45:08 pid:755 worker[none:756] exit with status 9
+2023-12-12 07:45:08 pid:755 Workerman[client.php] has been stopped
+2023-12-12 07:45:09 pid:761 Workerman[client.php] start in DEBUG mode
+2023-12-12 08:25:51 pid:758 Workerman[server.php] stopping ...
+2023-12-12 08:25:51 pid:758 Workerman[server.php] has been stopped
+2023-12-12 08:25:53 pid:764 Workerman[server.php] start in DEBUG mode
+2023-12-12 08:25:57 pid:761 Workerman[client.php] stopping ...
+2023-12-12 08:25:59 pid:761 Workerman[client.php] has been stopped
+2023-12-12 08:26:00 pid:767 Workerman[client.php] start in DEBUG mode
+2023-12-12 08:27:48 pid:764 Workerman[server.php] stopping ...
+2023-12-12 08:27:48 pid:764 Workerman[server.php] has been stopped
+2023-12-12 08:27:49 pid:773 Workerman[server.php] start in DEBUG mode
+2023-12-12 08:27:52 pid:767 Workerman[client.php] stopping ...
+2023-12-12 08:27:54 pid:767 worker[none:768] exit with status 9
+2023-12-12 08:27:54 pid:767 Workerman[client.php] has been stopped
+2023-12-12 08:27:55 pid:776 Workerman[client.php] start in DEBUG mode
+2023-12-12 08:29:40 pid:773 Workerman[server.php] stopping ...
+2023-12-12 08:29:40 pid:773 worker[ChannelServer:774] exit with status 2
+2023-12-12 08:29:41 pid:773 Workerman[server.php] has been stopped
+2023-12-12 08:29:42 pid:778 Workerman[server.php] start in DEBUG mode
+2023-12-12 08:29:51 pid:776 Workerman[client.php] stopping ...
+2023-12-12 08:29:53 pid:776 worker[none:777] exit with status 9
+2023-12-12 08:29:53 pid:776 Workerman[client.php] has been stopped
+2023-12-12 08:29:55 pid:781 Workerman[client.php] start in DEBUG mode
+2023-12-12 08:30:56 pid:781 Workerman[client.php] stopping ...
+2023-12-12 08:30:58 pid:781 worker[none:782] exit with status 9
+2023-12-12 08:30:58 pid:781 Workerman[client.php] has been stopped
+2023-12-12 08:31:01 pid:778 Workerman[server.php] stopping ...
+2023-12-12 08:31:01 pid:778 Workerman[server.php] stopping ...
+2023-12-12 08:31:02 pid:778 Workerman[server.php] has been stopped
+2023-12-12 08:33:02 pid:783 Workerman[server.php] start in DEBUG mode
+2023-12-12 08:33:06 pid:786 Workerman[client.php] start in DEBUG mode
+2023-12-12 08:36:08 pid:783 Workerman[server.php] stopping ...
+2023-12-12 08:36:08 pid:783 Workerman[server.php] has been stopped
+2023-12-12 08:36:10 pid:788 Workerman[server.php] start in DEBUG mode
+2023-12-12 08:36:13 pid:786 Workerman[client.php] stopping ...
+2023-12-12 08:36:14 pid:786 Workerman[client.php] stopping ...
+2023-12-12 08:36:15 pid:786 worker[none:787] exit with status 9
+2023-12-12 08:36:15 pid:786 Workerman[client.php] has been stopped
+2023-12-12 08:36:16 pid:791 Workerman[client.php] start in DEBUG mode
+2023-12-12 08:38:21 pid:788 Workerman[server.php] stopping ...
+2023-12-12 08:38:22 pid:788 Workerman[server.php] stopping ...
+2023-12-12 08:38:22 pid:788 Workerman[server.php] has been stopped
+2023-12-12 08:38:23 pid:793 Workerman[server.php] start in DEBUG mode
+2023-12-12 08:38:26 pid:791 Workerman[client.php] stopping ...
+2023-12-12 08:38:26 pid:791 Workerman[client.php] stopping ...
+2023-12-12 08:38:27 pid:791 Workerman[client.php] stopping ...
+2023-12-12 08:38:28 pid:791 Workerman[client.php] stopping ...
+2023-12-12 08:38:28 pid:791 worker[none:792] exit with status 9
+2023-12-12 08:38:28 pid:791 Workerman[client.php] has been stopped
+2023-12-12 08:38:29 pid:796 Workerman[client.php] start in DEBUG mode
+2023-12-12 08:48:26 pid:793 Workerman[server.php] stopping ...
+2023-12-12 08:48:26 pid:793 Workerman[server.php] has been stopped
+2023-12-12 08:48:29 pid:798 Workerman[server.php] start in DEBUG mode
+2023-12-12 08:48:34 pid:796 Workerman[client.php] stopping ...
+2023-12-12 08:48:34 pid:796 Workerman[client.php] stopping ...
+2023-12-12 08:48:36 pid:796 worker[none:797] exit with status 9
+2023-12-12 08:48:36 pid:796 Workerman[client.php] has been stopped
+2023-12-12 08:48:37 pid:801 Workerman[client.php] start in DEBUG mode
+2023-12-12 08:53:54 pid:798 Workerman[server.php] stopping ...
+2023-12-12 08:53:54 pid:798 Workerman[server.php] has been stopped
+2023-12-12 08:53:55 pid:803 Workerman[server.php] start in DEBUG mode
+2023-12-12 08:54:02 pid:801 Workerman[client.php] stopping ...
+2023-12-12 08:54:02 pid:801 Workerman[client.php] stopping ...
+2023-12-12 08:54:04 pid:801 worker[none:802] exit with status 9
+2023-12-12 08:54:04 pid:801 Workerman[client.php] has been stopped
+2023-12-12 08:54:05 pid:807 Workerman[client.php] start in DEBUG mode
+2023-12-12 08:56:19 pid:803 Workerman[server.php] stopping ...
+2023-12-12 08:56:19 pid:803 Workerman[server.php] has been stopped
+2023-12-12 08:56:20 pid:816 Workerman[server.php] start in DEBUG mode
+2023-12-12 08:56:23 pid:807 Workerman[client.php] stopping ...
+2023-12-12 08:56:24 pid:807 Workerman[client.php] stopping ...
+2023-12-12 08:56:25 pid:807 worker[none:808] exit with status 9
+2023-12-12 08:56:25 pid:807 Workerman[client.php] has been stopped
+2023-12-12 08:56:26 pid:820 Workerman[client.php] start in DEBUG mode

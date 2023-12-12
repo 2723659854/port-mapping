@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'augushong/workerman-port-mapping',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'porject',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'augushong/workerman-port-mapping' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'porject',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'workerman/channel' => array(
+            'pretty_version' => 'v1.0.6',
+            'version' => '1.0.6.0',
+            'reference' => 'bf6d837705738d875162a7344818e1bf02e8cef2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../workerman/channel',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'workerman/workerman' => array(
+            'pretty_version' => 'v4.0.4',
+            'version' => '4.0.4.0',
+            'reference' => '88e518903d2f61d6cdfe1d381b40e03be2a9ef94',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../workerman/workerman',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

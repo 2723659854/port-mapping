@@ -1,0 +1,25 @@
+{
+    "name": "xiaosongshu/port-mapping",
+    "description": "内网穿透,端口映射.",
+    "type": "porject",
+    "keywords": [
+        "workerman",
+        "nat",
+        "port",
+        "mapping",
+        "port-mapping",
+        "port mapping"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaosongshu",
+            "email": "2723659854@qq.com"
+        }
+    ],
+    "require": {
+        "workerman/workerman": "4.0.4",
+        "workerman/channel": "^1.0"
+    }
+    
+}

@@ -1,1 +1,1 @@
-php client_for_win.php
+php channel.php start_win_server.php  client_for_win.php

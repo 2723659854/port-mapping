@@ -18,8 +18,8 @@
         }
     ],
     "require": {
-        "workerman/workerman": "4.0.4",
-        "workerman/channel": "^1.0"
+        "workerman/workerman": "^4.1",
+        "workerman/channel": "*"
     }
     
 }

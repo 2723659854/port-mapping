@@ -4,9 +4,6 @@ require_once __DIR__.'/common.php';
 
 use Workerman\Worker;
 
-/** 首选创建一个 channel 服务器 */
-$channel_server = new Channel\Server('0.0.0.0', 2206);
-
 /** 获取配置 */
 try{
     $config = get_config();
@@ -14,6 +11,11 @@ try{
     echo "error:{$e}\n";
     exit;
 }
+
+
+/** 首选创建一个 channel 服务器 */
+$channel_server = new Channel\Server('0.0.0.0', $config['channel_port']);
+
 /** linux环境 创建多个代理 */
 if(isset($config['nat_list']) && !is_win()){
     foreach ($config['nat_list'] as $n_key => $n_value) {
@@ -21,7 +23,9 @@ if(isset($config['nat_list']) && !is_win()){
         $nat_client_list['nat_client_worker_'.$n_key] = build_server_woker($n_value);
     }
 }else{
+    var_dump("windows环境");
     /** windows 环境 只创建一个代理 */
+
     $worker = build_server_woker($config);
 }
 

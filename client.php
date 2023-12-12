@@ -10,6 +10,7 @@ try {
     $config = get_config();
 } catch (\Exception $e) {
     echo "error:{$e}\n";
+    exit;
 }
 
 if (isset($config['nat_list']) && is_win()) {

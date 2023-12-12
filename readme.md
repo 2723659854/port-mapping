@@ -45,4 +45,4 @@ php client.php start (-d)
 ```
 ####  windows环境
 
-直接双加client_for_win.bat文件即可
+直接双加client_for_win.bat文件即可，在窗口按ctrl+c 可以关闭服务。

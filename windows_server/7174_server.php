@@ -4,7 +4,7 @@ require_once __DIR__ . '/../common.php';
 
 use Workerman\Worker;
 
-$config = json_decode('{"server_port":8080,"local_port":9502,"local_ip":"127.0.0.1","name":"9502<->8080","password":"phpnb","channel_port":2206,"server_ip":"127.0.0.1"}',true);
+$config = json_decode('{"server_port":8000,"local_port":9501,"local_ip":"127.0.0.1","server_ip":"127.0.0.1","name":"9501<->8000","password":"phpnb","channel_port":2206}',true);
 
 /** 本地创建一个http服务器，用于处理浏览器发送的http请求 */
 $outside_worker = new Worker('tcp://0.0.0.0:' . $config['server_port']);

@@ -3,7 +3,7 @@
     "description": "内网穿透,端口映射.",
     "type": "porject",
     "keywords": [
-        "workerman",
+        "php-port-mapping",
         "nat",
         "port",
         "mapping",

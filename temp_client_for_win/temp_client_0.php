@@ -6,7 +6,7 @@ require_once __DIR__.'/../common.php';
 use Workerman\Worker;
 use \Workerman\Connection\AsyncTcpConnection;
 
-$config = json_decode('{"server_port":8000,"local_port":9501,"local_ip":"127.0.0.1","name":"9501<->8000","password":"phpnb","channel_port":2206,"server_ip":"127.0.0.1"}',true);
+$config = json_decode('{"server_port":8000,"local_port":9501,"local_ip":"127.0.0.1","server_ip":"127.0.0.1","name":"9501<->8000","password":"phpnb","channel_port":2206}',true);
 
 
 $inside_worker = new Worker();

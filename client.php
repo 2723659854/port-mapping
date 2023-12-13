@@ -5,20 +5,21 @@ require_once __DIR__ . '/common.php';
 use Workerman\Worker;
 use \Workerman\Connection\AsyncTcpConnection;
 
-
+/** 读取配置 */
 try {
     $config = get_config();
 } catch (\Exception $e) {
     echo "error:{$e}\n";
     exit;
 }
-
-if (isset($config['nat_list']) && is_win()) {
+/** 如果是linux环境 则开启多个客户端 */
+if (isset($config['nat_list']) && !is_win()) {
     foreach ($config['nat_list'] as $n_key => $n_value) {
         $unique_key = $n_key;
         $nat_client_list['nat_client_worker_' . $n_key] = build_client_woker($n_value);
     }
 } else {
+    /** windows 只启动一个客户端 */
     $worker = build_client_woker($config);
 }
 
@@ -89,14 +90,16 @@ function build_client_woker($config)
 
         /** 以下是定义的客户端channel的两个事件  */
         /** 定义channel客户端接收到消息事件 定义的是cs_message 不是sc_message */
-        Channel\Client::on('cs_message' . $config['local_ip'] . ":" . $config['local_port'], function ($event_data) use ($inside_worker) {
+        Channel\Client::on('cs_message' . $config['local_ip'] . ":" . $config['local_port'], function ($event_data) use ($inside_worker,$config) {
             /** 异步客户端向真实的服务器发送http报文 */
             $inside_worker->connections[$event_data['connection']['c_connection_id']]->send($event_data['data']);
         });
         /** 定义channel关闭客户端事件 */
         Channel\Client::on('cs_close' . $config['local_ip'] . ":" . $config['local_port'], function ($event_data) use ($inside_worker) {
             /** 将异步http客户端关闭 */
-            $inside_worker->connections[$event_data['connection']['c_connection_id']]->close();
+            if(isset($inside_worker->connections[$event_data['connection']['c_connection_id']])){
+                $inside_worker->connections[$event_data['connection']['c_connection_id']]->close();
+            }
         });
     };
 

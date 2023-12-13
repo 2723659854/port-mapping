@@ -23,9 +23,7 @@ if(isset($config['nat_list']) && !is_win()){
         $nat_client_list['nat_client_worker_'.$n_key] = build_server_woker($n_value);
     }
 }else{
-    var_dump("windows环境");
     /** windows 环境 只创建一个代理 */
-
     $worker = build_server_woker($config);
 }
 
@@ -74,7 +72,6 @@ function build_server_woker($config){
 
     /** 定义http代理服务器连接事件 */
     $outside_worker->onConnect = function($connection) use ($config){
-
         /** 获取浏览器http连接的信息 */
         $connection_data['connection'] = [
             'ip'=>$connection->getRemoteIp(),
@@ -87,7 +84,6 @@ function build_server_woker($config){
 
         /** 定义浏览器http连接消息事件 */
         $connection->onMessage = function($connection, $data) use ($config){
-
             /** 获取浏览器http连接的连接信息 */
             $message_data['connection'] = [
                 'ip'=>$connection->getRemoteIp(),

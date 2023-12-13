@@ -10,6 +10,7 @@
         "port-mapping",
         "port mapping"
     ],
+    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
@@ -20,6 +21,11 @@
     "require": {
         "workerman/workerman": "^4.1",
         "workerman/channel": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
     }
     
 }

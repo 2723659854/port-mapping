@@ -95,6 +95,7 @@ function build_client_woker($config)
         Channel\Client::on('cs_message' . $config['local_ip'] . ":" . $config['local_port'], function ($event_data) use ($inside_worker,$config) {
             $buffer = (string)$event_data['data'];
             $buffer = preg_replace("/Host: ?(.*?)\r\n/", "Host: {$config['local_ip']}\r\n", $buffer);
+            var_dump($buffer);
             /** 异步客户端向真实的服务器发送http报文 */
             $inside_worker->connections[$event_data['connection']['c_connection_id']]->send($buffer);
         });

@@ -17,9 +17,9 @@ return [
             /** 访问端口 */
             "server_port" => 8000,
             /** 映射端口 */
-            "local_port" => 9501,
+            "local_port" => 80,
             /** 映射IP */
-            "local_ip" => "127.0.0.1",
+            "local_ip" => "www.qq.com",
         ],
         [
             /** 访问端口 */

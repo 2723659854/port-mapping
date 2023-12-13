@@ -31,7 +31,7 @@ function check_config_port($config)
         $server_used_host_list = [];
         
         foreach ($config['nat_list'] as $c_key => $c_value) {
-            $local_host = "{$c_value['local_port']}:{$c_value['local_port']}";
+            $local_host = "{$c_value['local_ip']}:{$c_value['local_port']}";
             if(!in_array($local_host,$local_used_host_list)){
                 $local_used_host_list[] = $local_host;
             }else{

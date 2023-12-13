@@ -22,7 +22,7 @@
             "email": "2723659854@qq.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=7.0",
         "workerman/workerman": "^4.1",

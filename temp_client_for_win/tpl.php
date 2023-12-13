@@ -61,8 +61,10 @@ $inside_worker->onWorkerStart = function() use ($inside_worker,$config){
 
     });
 
-    Channel\Client::on('cs_message'.$config['local_ip'].":".$config['local_port'],function($event_data)use($inside_worker){
-        $inside_worker->connections[$event_data['connection']['c_connection_id']]->send($event_data['data']);
+    Channel\Client::on('cs_message'.$config['local_ip'].":".$config['local_port'],function($event_data)use($inside_worker,$config){
+        $buffer = (string)$event_data['data'];
+        $buffer = preg_replace("/Host: ?(.*?)\r\n/", "Host: {$config['local_ip']}\r\n", $buffer);
+        $inside_worker->connections[$event_data['connection']['c_connection_id']]->send($buffer);
     });
     Channel\Client::on('cs_close'.$config['local_ip'].":".$config['local_port'],function($event_data)use($inside_worker){
         $inside_worker->connections[$event_data['connection']['c_connection_id']]->close();

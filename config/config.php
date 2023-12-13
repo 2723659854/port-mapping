@@ -27,7 +27,7 @@ return [
             /** 映射端口 */
             "local_port" => 80,
             /** 映射IP */
-            "local_ip" => "156.236.71.182",
+            "local_ip" => "www.baidu.com",
         ],
     ]
 ];

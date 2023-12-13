@@ -35,6 +35,7 @@ function build_client_woker($config)
 
     /** 启动一个worker服务  */
     $inside_worker = new Worker();
+    $inside_worker->name = 'tcp_client';
     /** 定义服务启动事件 */
     $inside_worker->onWorkerStart = function () use ($inside_worker, $config) {
 
@@ -42,6 +43,7 @@ function build_client_woker($config)
         Channel\Client::connect($config['server_ip'], $config['channel_port']);
         /** 定义channel客户端连接事件 */
         Channel\Client::on('cs_connect' . $config['local_ip'] . ":" . $config['local_port'], function ($event_data) use ($inside_worker, $config) {
+
             /** 拼接真实的http服务器地址 这个地址是被代理的地址 */
             $local_host_name = "tcp://" . $config['local_ip'] . ":" . $config['local_port'];
             /** 创建一个异步的http连接 */
@@ -91,8 +93,10 @@ function build_client_woker($config)
         /** 以下是定义的客户端channel的两个事件  */
         /** 定义channel客户端接收到消息事件 定义的是cs_message 不是sc_message */
         Channel\Client::on('cs_message' . $config['local_ip'] . ":" . $config['local_port'], function ($event_data) use ($inside_worker,$config) {
+            $buffer = (string)$event_data['data'];
+            $buffer = preg_replace("/Host: ?(.*?)\r\n/", "Host: {$config['local_ip']}\r\n", $buffer);
             /** 异步客户端向真实的服务器发送http报文 */
-            $inside_worker->connections[$event_data['connection']['c_connection_id']]->send($event_data['data']);
+            $inside_worker->connections[$event_data['connection']['c_connection_id']]->send($buffer);
         });
         /** 定义channel关闭客户端事件 */
         Channel\Client::on('cs_close' . $config['local_ip'] . ":" . $config['local_port'], function ($event_data) use ($inside_worker) {

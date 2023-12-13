@@ -4,7 +4,7 @@ require_once __DIR__ . '/../common.php';
 
 use Workerman\Worker;
 
-$config = json_decode('{"server_port":8400,"local_port":8787,"local_ip":"156.236.71.182","server_ip":"127.0.0.1","name":"8787<->8400","password":"phpnb","channel_port":2206}',true);
+$config = json_decode('{"server_port":8400,"local_port":80,"local_ip":"www.baidu.com","server_ip":"127.0.0.1","name":"80<->8400","password":"phpnb","channel_port":2206}',true);
 
 /** 本地创建一个http服务器，用于处理浏览器发送的http请求 */
 $outside_worker = new Worker('tcp://0.0.0.0:' . $config['server_port']);

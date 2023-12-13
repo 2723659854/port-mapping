@@ -10,7 +10,7 @@ $config = json_decode('#config#',true);
 
 
 $inside_worker = new Worker();
-
+$inside_worker->name = 'tcp_client';
 $inside_worker->onWorkerStart = function() use ($inside_worker,$config){
 
     // Channel客户端连接到Channel服务端
@@ -33,7 +33,6 @@ $inside_worker->onWorkerStart = function() use ($inside_worker,$config){
         };
 
         $connection_to_local->onMessage = function($connection,$data) use($config,$event_data){
-            // $message_data['session'] = $_SESSION;
             $message_data['data'] = $data;
             $message_data['connection'] = [
                 'ip'=>$connection->getRemoteIp(),
@@ -45,7 +44,6 @@ $inside_worker->onWorkerStart = function() use ($inside_worker,$config){
         };
 
         $connection_to_local->onClose = function($connection) use($event_data,$config){
-            // $close_data['session'] = $_SESSION;
             $close_data['connection'] = [
                 'ip'=>$connection->getRemoteIp(),
                 'port'=>$connection->getRemotePort(),

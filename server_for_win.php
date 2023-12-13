@@ -8,6 +8,7 @@ $config = json_decode('#config#',true);
 
 /** 本地创建一个http服务器，用于处理浏览器发送的http请求 */
 $outside_worker = new Worker('tcp://0.0.0.0:' . $config['server_port']);
+$outside_worker->name = 'port-mapping';
 
 /** 定义http代理服务器启动事件 */
 $outside_worker->onWorkerStart = function () use ($outside_worker, $config) {

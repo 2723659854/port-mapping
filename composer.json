@@ -1,7 +1,8 @@
 {
     "name": "xiaosongshu/port-mapping",
-    "description": "内网穿透,端口映射.",
-    "type": "porject",
+    "description": "php版本端口映射",
+    "type": "project",
+    "license": "MIT",
     "keywords": [
         "php-port-mapping",
         "nat",
@@ -10,22 +11,21 @@
         "port-mapping",
         "port mapping"
     ],
-    "minimum-stability": "dev",
-    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xiaosongshu\\PortMapping\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "xiaosongshu",
             "email": "2723659854@qq.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
+        "php": ">=7.0",
         "workerman/workerman": "^4.1",
         "workerman/channel": "*"
-    },
-    "config": {
-        "allow-plugins": {
-            "php-http/discovery": true
-        }
     }
-    
 }

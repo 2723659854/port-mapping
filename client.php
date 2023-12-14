@@ -29,6 +29,7 @@ Worker::runAll();
  * 负责向真实的服务器发送异步http请求，并返回数据给server.php的channel客户端
  * @param $config
  * @return void
+ * @note  这里是可以发送ssl数据额
  */
 function build_client_woker($config)
 {
